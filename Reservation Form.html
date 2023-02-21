@@ -10,11 +10,16 @@
     <form>
         <h1>Travel reservation form</h1>
         <h2>*denotes mandatory</h2>
-        <p>Full name*:</p>
+        <label for="name">Full name*:</label>
+        <br>
         <input type="text" name="fullname" placeholder="FirstName LastName">
-        <p>Email address*:</p>
+        <br><br>
+        <label>Email address*:</label>
+        <br>
         <input type="text" name="email" placeholder="EMAIL_ADDRESS">
-        <p>Select Tour Package*:</p>
+        <br><br>
+        <label>Select Tour Package*:</label>
+        <br>
         <select name="Tour Package" size="1">
             <option value="1">Bangkok Landmarks</option>
             <option value="2">Chao Phraya Princess Dinner Cruise</option>
@@ -23,19 +28,26 @@
             <option value="5">Grand Palace & Emerald Buddha Temple</option>
             <option value="6">Visit a Floating Market</option>
         </select>
-        <p>Arrival date*:</p>
+        <br><br>
+        <label>Arrival date*:</label>
+        <br>
         <input type="date" name="arrival date">
-        <p>Number of persons*:</p>
+        <br><br>
+        <label>Number of persons*:</label>
+        <br>
         <input type="number" name="persons" min="1" max="25" placeholder="1-25">
         <br><br>
         What would you want to avail?*<br>
         Boarding<input type="checkbox" name="avail" value="Boarding"><br>
         Fooding<input type="checkbox" name="avail" value="Fooding"><br>
         Sight seeings<input type="checkbox" name="avail" value="Sight seeings">
-        <p>Discount Coupon code:</p>
+        <br><br>
+        <label>Discount Coupon code:</label>
+        <br>
         <input type="text" name="discount" placeholder="UNKNOWN_TYPE">
         <br><br>
-        Trems and conditions<br>
+        Trems and conditions
+        <br>
         <input type="radio" name="agree" value="agree">I agree<br>
         <input type="radio" name="agree" value="disagree">I disagree<br>
         <br>
