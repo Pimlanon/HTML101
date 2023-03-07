@@ -21,14 +21,35 @@
     position: relative;
 }
 
-.logo {
+nav {
+    display: flex;
+    padding: 1% 3%;
+    /* top-bottom: 1% left-right:3% */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
     width: 50px;
 }
 
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
 
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
 
-
-
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
 
 
 .ch52 a {
