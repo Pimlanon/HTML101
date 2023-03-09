@@ -106,7 +106,21 @@ nav img{
     transition: 1s;
 }
 
-.ch52 a {
-    text-decoration: none;
-    color: blueviolet;
+/* responsive for homepage */
+@media(max-width:700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
 }
