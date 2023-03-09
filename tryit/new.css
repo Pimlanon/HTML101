@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+    max-width: 1400;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    background-color: white;
+}
+.nav-left {
+    display: flex;
+    margin-left: 24px;
+    font-size: 32px;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1.5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+/* mid1 */
+.mid1 {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: darkgray;
+}
+
+.mid1-pic {
+    width: 60%;
+}
+
+.mid1 img {
+    width: 100%;
+}
+
+.mid1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-left: 24px;
+    /* width: 40%; */
+}
+
+button {
+    background-color: rgb(59, 58, 58);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/* mid2 */
+.mid2 {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.mid2-left {
+    width: 60%;
+}
+
+.mid2 img {
+    width: 100%;
+}
+
+.mid2 h2 {
+    margin-top: 2rem;
+}
+
+.mid2 .p1 {
+    margin-top: 1.5rem;
+}
+
+.mid2 .p2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* mid2-right */
+.mid2-right {
+    width: 40%;
+    margin-left: 1rem;
+    /* gap: 16px; */
+}
+
+.mid2-right-data {
+    display: flex;
+    padding: 16px;
+}
+
+.mid2-img {
+    width: 35%;
+}
+
+.mid2-img {
+    width: 100%;
+}
+
+
+.mid2-right-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+/* mid3 */
+.mid3 {
+    background-color: darkgrey;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.mid3 h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.mid3-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mid3-item {
+    background-color: white;
+    margin-bottom: 32px;
+    margin-right: 32px;
+}
+
+.mid3-item img {
+    width: 30%;
+}
