@@ -16,7 +16,8 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(pic/IMG_4367.PNG);
+    /* background: linear-gradient(rgba(0,0,0,0.5), #617143), url(pic/IMG_4367.PNG); */
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(pic/IMG_4364.PNG);
     background-position: center;
     background-size: cover;
     position: relative;
