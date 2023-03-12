@@ -128,13 +128,6 @@ nav img{
         z-index: 2;
         transition: 1s;
     }
-    /* .bi-list {
-        display: block;
-        color: rgb(255, 255, 255);
-        margin: 50px;
-        font-size: 22px;
-        cursor: pointer;
-    } */
 
     .bi-list {
         display: block;
